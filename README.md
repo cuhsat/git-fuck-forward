@@ -1,8 +1,8 @@
 git fuck-forward
 ================
-*Repository nach vorne ficken.*
+*Repository nach vorne ficken!*
 
-> Like all of Git, this plug-in is just a sad joke...
+> Like all of Git, this plug-in is just a sad sad joke...
 
 Usage
 -----
