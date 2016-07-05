@@ -1,1 +1,19 @@
-TODO!
+.\" Manpage for git-fuck-forward
+.TH man 1 "July 2016" "0.2.0" "git fuck-forward man page"
+.SH NAME
+git fuck-forward \- A sad sad joke...
+.SH SYNOPSIS
+git fuck-forward [ORIGIN] [BRANCH]
+.SH DESCRIPTION
+Will do a merge with the remote head followed by a forced push.
+.SH OPTIONS
+.TP
+.I "ORIGIN"
+The used origin (default "origin").
+.TP
+.I "BRANCH"
+The used branch (default "master").
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Christian Uhsat <christian@uhsat.de>

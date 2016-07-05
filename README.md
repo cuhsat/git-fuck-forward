@@ -7,7 +7,7 @@ git fuck-forward
 Usage
 -----
 ```
-$ git fuck-forward [ORIGIN] [MASTER]
+$ git fuck-forward [ORIGIN] [BRANCH]
 ```
 
 Will do a `merge` with the remote head followed by a forced `push`.

@@ -2,11 +2,11 @@
 set -o errexit
 
 usage() {
-    echo "usage: git fuck-forward <origin> <master>"
+    echo "usage: git fuck-forward [ORIGIN] [BRANCH]"
 }
 
 version() {
-    echo "fuck-forward git plugin v0.1.0"
+    echo "fuck-forward git plugin v0.2.0"
 }
 
 main() {
@@ -19,23 +19,19 @@ main() {
             ;;
     esac
 
-    local $ORIGIN
-    local $MASTER
+    local ORIGIN=$1
+    local BRANCH=$2
 
     if [ -z "$1" ]; then
         ORIGIN="origin"
-    else 
-        ORIGIN="$1"
     fi
 
     if [ -z "$2" ]; then
-        MASTER="master"
-    else
-        MASTER="$2"
+        BRANCH="master"
     fi
 
-    git merge $ORIGIN/$MASTER && \
-    git push $ORIGIN $MASTER --force
+    git merge $ORIGIN/$BRANCH && \
+    git push $ORIGIN $BRANCH --force
 }
 
 main "$@"
