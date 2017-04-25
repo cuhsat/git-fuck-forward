@@ -32,6 +32,7 @@ main() {
 
     git merge $ORIGIN/$BRANCH && \
     git push $ORIGIN $BRANCH --force
+
     echo "And not a single fuck was given..."
 }
 
