@@ -1,5 +1,5 @@
 .\" Manpage for git-fuck-forward
-.TH man 1 "July 2016" "0.2.0" "git fuck-forward man page"
+.TH man 1 "April 2017" "0.2.1" "git fuck-forward man page"
 .SH NAME
 git fuck-forward \- A sad sad joke...
 .SH SYNOPSIS

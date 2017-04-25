@@ -6,7 +6,7 @@ usage() {
 }
 
 version() {
-    echo "fuck-forward git plugin v0.2.0"
+    echo "fuck-forward git plugin v0.2.1"
 }
 
 main() {
@@ -32,6 +32,7 @@ main() {
 
     git merge $ORIGIN/$BRANCH && \
     git push $ORIGIN $BRANCH --force
+    echo "And not a single fuck was given..."
 }
 
 main "$@"
